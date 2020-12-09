@@ -9,7 +9,7 @@ rams = soup.findAll('span', attrs={'class': 'proddescvalue'})
 rams_string = []
 for name in rams:
     rams_string.append(name.string)
-   # print(name.string)
+# print(name.string)
 
 for ram in rams_string:
     print(ram)
