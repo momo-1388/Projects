@@ -14,3 +14,4 @@ count = 0
 for ram in rams_string:
     print('_________________________________')
     print(ram)
+# سلام من محمد عیدی هستم
