@@ -12,10 +12,5 @@ for name in rams:
 # print(name.string)
 count = 0
 for ram in rams_string:
-    if count == 4:
-        print('count is 4')
-        count = 1
     print('_________________________________')
     print(ram)
-    count+=1
-
