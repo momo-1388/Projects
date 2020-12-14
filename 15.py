@@ -12,5 +12,5 @@ for name in names:
     print(name.text.strip())
 
 for price in prices:
-    price = re.findall(r'^\d*\d+$', price)
-    print(price)
+    op = re.findall(r'\d', price.text)
+    print(''.join(op))
