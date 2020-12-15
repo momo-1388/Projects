@@ -44,7 +44,7 @@ for i in cars:
     joj =  ' '.join(joj)
     jog = i[0]
     mycursor = car_data.cursor()
-    mycursor.execute('INSERT INTO all_car(price , kar) VALUES (%s , %s)', (jog , joj))
+    mycursor.execute('INSERT INTO all_car(price , kar) VALUES (%s , %s)', (jog, joj))
 
 
 car_data.commit()
