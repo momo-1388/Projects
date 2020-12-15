@@ -11,17 +11,17 @@ class ensan:
 
 def return_number():
     num = randint(1,2)
-    if fottball.A == 0 :
+    if fottball.A == 0:
         num = 2
-    if fottball.B == 0 :
+    if fottball.B == 0:
         num = 1
-    if num == 1 :
+    if num == 1:
         fottball.A -= 1
         return 'A'
-    elif num == 2 :
+    elif num == 2:
         fottball.B -= 1
         return 'B'
-    else :
+    else:
         pass
 
 
